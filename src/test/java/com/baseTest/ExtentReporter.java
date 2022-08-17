@@ -22,4 +22,15 @@ public class ExtentReporter {
 		
 		
 	}
+	
+	/*public static ExtentReports extentReports = new ExtentReports();
+	
+    public static ExtentReports createExtentReports() {
+    	String path = System.getProperty("user.dir")+"\\reports\\index.html";
+        ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+        reporter.config().setReportName(" Extent Report");
+        extentReports.attachReporter(reporter);
+        extentReports.setSystemInfo(" Name", "SW Test Academy");
+        return extentReports;
+    }*/
 }
