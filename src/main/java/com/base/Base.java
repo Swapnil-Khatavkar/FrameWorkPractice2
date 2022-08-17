@@ -31,9 +31,11 @@ public class Base {
 //					"F:\\Tools\\BrowserDrivers\\geckodriver-v0.31.0-win64\\geckodriver.exe");
 //			this.driver = new FirefoxDriver();	
 //		}else if(browserName.equalsIgnoreCase("Edge")) {
-			System.setProperty("webdriver.edge.driver",
-					"F:\\Tools\\BrowserDrivers\\edgedriver_win32\\msedgedriver.exe");
-			this.driver = new EdgeDriver();
+//			System.setProperty("webdriver.edge.driver",
+//					"‪D:\\Tools\\edgedriver_win64\\msedgedriver.exe");
+//			this.driver = new EdgeDriver();
+		System.setProperty("webdriver.chrome.driver","D:\\Tools\\chromedriver_win32\\chromedriver.exe");
+		this.driver=new ChromeDriver();
 //		}
 		
 	}
